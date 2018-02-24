@@ -1,5 +1,5 @@
 
-const dbName = 'mydb';
+const dbName = 'primary_schools';
 const vCAPLocal = require('./VCAPLocal');
 
 const mydb = vCAPLocal.getCloudant().db.use(dbName);
@@ -13,8 +13,8 @@ exports.getPrimarySchools = () => {
         mydb.list({ include_docs: true }, function(err, body) {
             if (!err) {
                 body.rows.forEach(function(row) {
-                if(row.doc.name)
-                    names.push(row.doc.name);
+                if(row.doc)
+                    names.push(row.doc);
                 });
                 resolve(names);
             } else {

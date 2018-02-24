@@ -11,23 +11,9 @@ const SchoolService = require('../services/SchoolService');
  * Get pre schools
  */
 exports.getPreSchools = (request, response) => {
-  response.json([
-    {
-      name: "Cole 1",
-      info: "Este cole es guay",
-      lat: 40.416247,
-      lng: -3.725031
-    },
-    {
-      name: "Cole 2",
-      info: "Este cole no es tan guay",
-      lat: 40.413241,
-      lng: -3.697736
-    }
-  ]);
-  // return SchoolService.listAllPreSchools()
-  //   .then((names) => response.json(names))
-  //   .catch(err => response.status(501).send());
+  return SchoolService.listAllPreSchools()
+    .then((names) => response.json(names))
+    .catch(err => response.status(501).send());
 };
 
 /**
@@ -35,13 +21,13 @@ exports.getPreSchools = (request, response) => {
  * Set a pre school
  */
 exports.setPreSchool = (request, response) => {
-    var userName = request.body.name;
-    if (!userName) {
-      response.status(400).send(`Name must be provided`);
+    var body = request.body;
+    if (!body) {
+      response.status(400).send(`Body must be provided`);
     }
 
-    return SchoolService.setPreSchool(userName)
-      .then(_ => response.send("Hello " + userName + "! I added you to the database."))
+    return SchoolService.setPreSchool(body)
+      .then(_ => response.send())
       .catch(err => {
         console.log('[mydb.insert] ', err.message);
         response.status(501).send('[mydb.insert] ' + err.message);
@@ -64,13 +50,13 @@ exports.getPrimarySchools = (request, response) => {
  * Set a pre school
  */
 exports.setPrimarySchool = (request, response) => {
-    var userName = request.body.name;
-    if (!userName) {
-      response.status(400).send(`Name must be provided`);
+    var body = request.body;
+    if (!body) {
+      response.status(400).send(`Body must be provided`);
     }
 
-    return SchoolService.setPrimarySchool(userName)
-      .then(_ => response.send("Hello " + userName + "! I added you to the database."))
+    return SchoolService.setPrimarySchool(body)
+      .then(_ => response.send())
       .catch(err => {
         console.log('[mydb.insert] ', err.message);
         response.status(501).send('[mydb.insert] ' + err.message);

@@ -1,10 +1,10 @@
 
-const dbName = 'air_quality';
+const dbName = 'stations';
 const vCAPLocal = require('./VCAPLocal');
 
 const mydb = vCAPLocal.getCloudant().db.use(dbName);
 
-exports.getAirQuality = () => {
+exports.getStations = () => {
     return new Promise((resolve, reject) => {
         var names = [];
         if(!mydb) {
@@ -13,8 +13,8 @@ exports.getAirQuality = () => {
         mydb.list({ include_docs: true }, function(err, body) {
             if (!err) {
                 body.rows.forEach(function(row) {
-                if(row.doc.name)
-                    names.push(row.doc.name);
+                if(row.doc)
+                    names.push(row.doc);
                 });
                 resolve(names);
             } else {
@@ -24,7 +24,7 @@ exports.getAirQuality = () => {
     });
 };
 
-exports.setAirQuality = (info) => {
+exports.setStation = (info) => {
     return new Promise((resolve, reject) => {
         if(!mydb) {
             console.log("No database.");

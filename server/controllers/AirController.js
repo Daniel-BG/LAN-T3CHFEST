@@ -11,7 +11,7 @@ const AirService = require('../services/AirService');
  * Get the air info
  */
 exports.getAir = (request, response) => {
-  return AirService.listAllAirQuality()
+  return AirService.listAllStations()
     .then((names) => response.json(names))
     .catch(err => response.status(501).send());
 };

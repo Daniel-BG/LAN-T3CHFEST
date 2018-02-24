@@ -1,10 +1,23 @@
 
-const { getAirQuality, setAirQuality } = require('../model/AirDAO');
+const { getStations, setStation } = require('../model/StationsDAO');
+const { getEffects, getEffectById, setEffect } = require('../model/EffectsDAO');
 
-exports.listAllAirQuality = () => {
-    return getAirQuality();
+exports.listAllStations = () => {
+    return getStations();
 }
 
-exports.setAir = (info) => {
-    return setAirQuality(info);
+exports.setStation = (info) => {
+    return setStation(info);
+}
+
+exports.listAllEffects = () => {
+    return getEffects();
+}
+
+exports.getEffectById = (id) => {
+    return getEffectById(id);
+}
+
+exports.setEffect = (info) => {
+    return setEffect(info);
 }
