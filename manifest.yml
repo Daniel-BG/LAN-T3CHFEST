@@ -1,0 +1,6 @@
+---
+applications:
+ - name: losangelesdenati-techfest
+   host: losangelesdenati-techfest
+   random-route: true
+   memory: 256M
