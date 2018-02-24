@@ -57,7 +57,7 @@
                         },
                         map: map,
                         title: d.estacion,
-                        icon: 'http://maps.google.com/mapfiles/kml/pal3/icon39.png'
+                        icon: './images/sensor.png'
                     });
                     marker.addListener('click', function() {
                         infowindow.open(map, marker);
