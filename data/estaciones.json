@@ -1,146 +1,146 @@
 {
 	"estaciones": [
 		{
-		"latitud":  -3.7122472,
-		"longitud": 40.4238528,
+		"lng":  -3.7122472,
+		"lat": 40.4238528,
 		"estacion": "Pza. de España",
 		"id":4 
 		},
 		{
-		"latitud":  -3.6823194,
-		"longitud": 40.4215639,
+		"lng":  -3.6823194,
+		"lat": 40.4215639,
 		"estacion": "Escuelas Aguirre",
 		"id":8 
 		},
 		{
-		"latitud":  -3.6773556,
-		"longitud": 40.4514750,
+		"lng":  -3.6773556,
+		"lat": 40.4514750,
 		"estacion": "Avda. Ramón y Cajal",
 		"id":11
 		},
 		{
-		"latitud":  -3.6392333,
-		"longitud": 40.4400472,
+		"lng":  -3.6392333,
+		"lat": 40.4400472,
 		"estacion": "Arturo Soria",
 		"id":16
 		},
 		{
-		"latitud":  -3.7133222,
-		"longitud": 40.3471389,
+		"lng":  -3.7133222,
+		"lat": 40.3471389,
 		"estacion": "Villaverde",
 		"id":17
 		},
 		{
-		"latitud":  -3.7318528,
-		"longitud": 40.3947806,
+		"lng":  -3.7318528,
+		"lat": 40.3947806,
 		"estacion": "Farolillo",
 		"id":18
 		},
 		{
-		"latitud":  -3.7473472,
-		"longitud": 40.4193556,
+		"lng":  -3.7473472,
+		"lat": 40.4193556,
 		"estacion": "Casa de Campo",
 		"id":24
 		},
 		{
-		"latitud":  -3.58306,
-		"longitud": 40.4769278,
+		"lng":  -3.58306,
+		"lat": 40.4769278,
 		"estacion": "Barajas Pueblo",
 		"id":27
 		},
 		{
-		"latitud":  -3.7031722,
-		"longitud": 40.4192083,
+		"lng":  -3.7031722,
+		"lat": 40.4192083,
 		"estacion": "Pza. del Carmen",
 		"id":35
 		},
 		{
-		"latitud":  -3.6453056,
-		"longitud": 40.4079472,
+		"lng":  -3.6453056,
+		"lat": 40.4079472,
 		"estacion": "Moratalaz",
 		"id":36
 		},
 		{
-		"latitud":  -3.7071278,
-		"longitud": 40.4455444,
+		"lng":  -3.7071278,
+		"lat": 40.4455444,
 		"estacion": "Cuatro Caminos",
 		"id":38
 		},
 		{
-		"latitud":  -3.7115417,
-		"longitud": 40.4782278,
+		"lng":  -3.7115417,
+		"lat": 40.4782278,
 		"estacion": "Barrio del Pilar",
 		"id":39
 		},
 		{
-		"latitud":  -3.6515222,
-		"longitud": 40.3881528,
+		"lng":  -3.6515222,
+		"lat": 40.3881528,
 		"estacion": "Vallecas",
 		"id":40
 		},
 		{
-		"latitud":  -3.6868250,
-		"longitud": 40.3981139,
+		"lng":  -3.6868250,
+		"lat": 40.3981139,
 		"estacion": "Mendez Alvaro",
 		"id":47
 		},
 		{
-		"latitud":  -3.6903667,
-		"longitud": 40.4398972,
+		"lng":  -3.6903667,
+		"lat": 40.4398972,
 		"estacion": "Castellana",
 		"id":48
 		},
 		{
-		"latitud":  -3.6825833,
-		"longitud": 40.4144444,
+		"lng":  -3.6825833,
+		"lat": 40.4144444,
 		"estacion": "Parque del Retiro",
 		"id":49
 		},
 		{
-		"latitud":  -3.6887694,
-		"longitud": 40.4655722,
+		"lng":  -3.6887694,
+		"lat": 40.4655722,
 		"estacion": "Plaza Castilla",
 		"id":50
 		},
 		{
-		"latitud":  -3.6121167,
-		"longitud": 40.3729333,
+		"lng":  -3.6121167,
+		"lat": 40.3729333,
 		"estacion": "Ensanche de Vallecas",
 		"id":54
 		},
 		{
-		"latitud":  -3.5807472,
-		"longitud": 40.4625306,
+		"lng":  -3.5807472,
+		"lat": 40.4625306,
 		"estacion": "Urb. Embajada",
 		"id":55
 		},
 		{
-		"latitud":  -3.7187278,
-		"longitud": 40.3849639,
+		"lng":  -3.7187278,
+		"lat": 40.3849639,
 		"estacion": "Pza. Fernández Ladreda",
 		"id":56
 		},
 		{
-		"latitud":  -3.6605028,
-		"longitud": 40.4942083,
+		"lng":  -3.6605028,
+		"lat": 40.4942083,
 		"estacion": "Sanchinarro",
 		"id":57
 		},
 		{
-		"latitud":  -3.7746111,
-		"longitud": 40.5180583,
+		"lng":  -3.7746111,
+		"lat": 40.5180583,
 		"estacion": "El Pardo",
 		"id":58
 		},
 		{
-		"latitud":  -3.6090722,
-		"longitud": 40.4652500,
+		"lng":  -3.6090722,
+		"lat": 40.4652500,
 		"estacion": "Juan Carlos I",
 		"id":59
 		},
 		{
-		"latitud":  -3.6897611,
-		"longitud": 40.5005889,
+		"lng":  -3.6897611,
+		"lat": 40.5005889,
 		"estacion": "Tres Olivos",
 		"id":60
 		}
