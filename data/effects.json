@@ -1,6 +1,46 @@
 {
 	"entries": [
 		{
+			"id": 1,
+			"name": "SO2",
+			"effects": [
+				{"threshold": 20, "alert": "Molestias en la respiración"},
+				{"threshold": 40, "alert": "Riesgo elevado para asmáticos"}
+			],
+			"comment": "http://www.environment.gov.au/protection/publications/factsheet-sulfur-dioxide-so2"
+		},
+		{
+			"id": 6,
+			"name": "CO",
+			"effects": [
+				{"threshold": 0.3, "alert": "Dolor de cabeza"},
+				{"threshold": 0.6, "alert": "Dolores de pecho"},
+				{"threshold": 0.7, "alert": "Mareos"},
+				{"threshold": 0.8, "alert": "Equivalente a una cajetilla semanal"},
+				{"threshold": 1, "alert": "Debilidad general"}
+			],
+			"comment": "https://www.detectcarbonmonoxide.com/co-health-risks/"
+		},
+		{
+			"id": 7,
+			"name": "NO",
+			"effects": [
+				{"threshold": 25, "alert": "Náuseas"},
+				{"threshold": 50, "alert": "Pérdida de control motor"}
+			],
+			"comment": ""
+		},
+		{
+			"id": 8,
+			"name": "NO2",
+			"effects": [
+				{"threshold": 20, "alert": "Irritaciones respiratorias"},
+				{"threshold": 30, "alert": "Especial riesgo de infección respiratoria para niños"},
+				{"threshold": 40, "alert": "Lluvia ácida"}
+			],
+			"comment": "http://justsayn2o.com/nitrous.dangers.html"
+		},
+		{
 			"id": 9,
 			"name": "PM25",
 			"effects": [
@@ -21,14 +61,10 @@
 			"comment": "https://www.marlborough.govt.nz/environment/air-quality/smoke-and-smog/health-effects-of-pm10"
 		},
 		{
-			"id": 8,
-			"name": "NO2",
-			"effects": [
-				{"threshold": 20, "alert": "Irritaciones respiratorias"},
-				{"threshold": 30, "alert": "Especial riesgo de infección respiratoria para niños"},
-				{"threshold": 40, "alert": "Lluvia ácida"}
-			],
-			"comment": "https://www.epa.gov/no2-pollution/basic-information-about-no2"
+			"id": 12,
+			"name": "NOX",
+			"effects": [],
+			"comment": ""
 		},
 		{
 			"id": 14,
@@ -41,25 +77,83 @@
 			"comment": "https://www.epa.gov/ozone-pollution/health-effects-ozone-pollution"
 		},
 		{
-			"id": 6,
-			"name": "CO",
+			"id": 20,
+			"name": "TOL",
 			"effects": [
-				{"threshold": 0.3, "alert": "Dolor de cabeza"},
-				{"threshold": 0.6, "alert": "Dolores de pecho"},
-				{"threshold": 0.7, "alert": "Mareos"},
-				{"threshold": 0.8, "alert": "Equivalente a una cajetilla semanal"},
-				{"threshold": 1, "alert": "Debilidad general"}
+				{"threshold": 25, "alert": "Sistema nervioso central afectado"},
+				{"threshold": 50, "alert": "Pérdida del conocimiento"}
 			],
-			"comment": "https://www.detectcarbonmonoxide.com/co-health-risks/"
+			"comment": "https://www.osha.gov/SLTC/toluene/health_hazards.html"
 		},
 		{
-			"id": 1,
-			"name": "SO2",
+			"id": 30,
+			"name": "BEN",
 			"effects": [
-				{"threshold": 20, "alert": "Molestias en la respiración"},
-				{"threshold": 40, "alert": "Riesgo elevado para asmáticos"}
+				{"threshold": 0.25, "alert": "Temblores musculares"},
+				{"threshold": 0.5, "alert": "Convulsiones"}
 			],
-			"comment": "http://www.environment.gov.au/protection/publications/factsheet-sulfur-dioxide-so2"
+			"comment": "https://emergency.cdc.gov/agent/benzene/basics/facts.asp"
+		},
+		{
+			"id": 35,
+			"name": "EBE",
+			"effects": [
+				
+			],
+			"comment": ""
+		},
+		{
+			"id": 37,
+			"name": "MXY",
+			"effects": [
+				{"threshold": 100, "alert": "Desactivación del sistema nervioso central"}
+			],
+			"comment": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2996004/"
+		},
+		{
+			"id": 38,
+			"name": "PXY",
+			"effects": [
+				{"threshold": 100, "alert": "Desactivación del sistema nervioso central"}
+			],
+			"comment": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2996004/"
+		},
+		{
+			"id": 39,
+			"name": "OXY",
+			"effects": [
+				{"threshold": 100, "alert": "Desactivación del sistema nervioso central"}
+			],
+			"comment": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2996004/"
+		},
+		{
+			"id": 42,
+			"name": "TCH",
+			"effects": [
+				{"threshold": 25, "alert": "Daño testicular"},
+				{"threshold": 50, "alert": "Dermatitis"}
+			],
+			"comment": ""
+		},
+		{
+			"id": 43,
+			"name": "CH4",
+			"effects": [],
+			"comment": ""
+		},	
+		{
+			"id": 44,
+			"name": "NMHC",
+			"effects": [],
+			"comment": ""
 		}
 	]
 }
+
+
+
+
+
+
+
+
